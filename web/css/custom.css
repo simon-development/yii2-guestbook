@@ -1,0 +1,36 @@
+#add_feedback {
+	padding-top: 50px;
+}
+
+.add_button{
+	border: 1px solid;
+	text-decoration: none;
+	border-radius: 15px;
+	padding-left: 10px;
+	padding-right: 10px;
+	cursor: pointer;
+}
+
+.add_button:hover {
+	text-decoration: none;
+}
+
+#preview{
+	width: 100%;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	display: none;
+	min-height: 50px;
+}
+
+.add_tag, .show_preview{
+	cursor: pointer;
+}
+
+#feedbacks-captcha{
+	width: 180px;
+}
+
+.submit-button{
+	width: 180px;
+}
